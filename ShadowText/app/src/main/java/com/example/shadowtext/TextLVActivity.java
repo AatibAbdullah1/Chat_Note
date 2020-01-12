@@ -1,4 +1,5 @@
 package com.example.shadowtext;
+
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
@@ -6,7 +7,7 @@ import android.widget.ListView;
 
 import com.example.shadowtext.adapter.FriendLVAdapter;
 
-public class FriendLVActivty extends Activity{
+public class TextLVActivity extends Activity {
 
     protected ListView mSummaryView;
     protected final String TAG = "Summary Screen";
@@ -17,11 +18,10 @@ public class FriendLVActivty extends Activity{
         Log.d(TAG, "onCreate() called");
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.friends_listview);
+        setContentView(R.layout.text_listview);
 
         mSummaryView = findViewById(R.id.list_view_id);
         ad = new FriendLVAdapter();
         mSummaryView.setAdapter(ad);
-}
-
+    }
 }

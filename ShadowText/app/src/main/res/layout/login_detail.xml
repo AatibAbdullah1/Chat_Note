@@ -44,7 +44,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/login2"
+        android:id="@+id/login"
         android:layout_width="50pt"
         android:layout_height="25pt"
         android:layout_gravity="center_horizontal"

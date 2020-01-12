@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/select_done"
+        android:title="Add friend"
+        />
+    <item
+        android:id="@+id/leave_done"
+        android:title="Don't Add friend"
+        />
+</menu>

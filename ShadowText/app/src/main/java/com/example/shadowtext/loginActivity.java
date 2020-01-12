@@ -18,7 +18,7 @@ public class loginActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_detail);
 
-        Button aatibsbutton = (Button)findViewById(R.id.login2);
+        Button aatibsbutton = (Button)findViewById(R.id.login);
 
         aatibsbutton.setOnClickListener(
                 new Button.OnClickListener(){
@@ -43,7 +43,7 @@ public class loginActivity extends Activity {
         String username = user.toString();
         String password = pass.toString();
 
-        Intent intent = new Intent(this,mainpageActivity.class);
+        Intent intent = new Intent(this,FriendLVActivty.class);
 
 
 

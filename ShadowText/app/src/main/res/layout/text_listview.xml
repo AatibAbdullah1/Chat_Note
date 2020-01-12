@@ -7,4 +7,9 @@
         android:id="@+id/list_view_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"></ListView>
+
+    <EditText
+        android:id="@+id/Shadow_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>

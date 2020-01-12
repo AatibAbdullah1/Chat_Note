@@ -5,4 +5,13 @@
         android:title="Delete"
         />
 
+    <item
+        android:id="@+id/action_done"
+        android:title="Add friend"
+        />
+    <item
+        android:id="@+id/leaving_finished"
+        android:title="Log out"
+        />
+
 </menu>
